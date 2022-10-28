@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+font-family: 'Poppins';
+margin: 0;
+padding: 0;
+}
+
+/* index */
+
+header{    
+    top: 0px;
+    position: sticky;  
+}
+
+nav{
+    background-color: black; 
+}
+
+.header__nav__ul__index{    
+    text-align: center;
+    list-style: none;    
+    height: 80px;    
+}
+
+.header__nav__ul__index__li{    
+    display:inline-block;
+    width: 180px;        
+    position:relative;    
+    padding: 23px;
+}
+
+a{      
+    text-decoration:none;
+    color: white;
+    font-size: 25px;        
+    top: 8px;
+}   
+
+.header__logo{
+    width: 145px;
+    height: 60px;
+    position: relative;
+    bottom: 71px;
+    left: 25px;
+}
+
+body{
+    background-color: #BFC0C0;
+}
+
+main{
+    color: #2D3142;
+}
+
+.main__section__article__ul li{
+    margin-bottom: 40px;
+    width: 550px;    
+    text-align: center;
+    list-style: none;     
+}
+
+.main__section__article__li1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.main__section__article__li3{
+    font-size: 40px;    
+}
+
+.main__section div{
+    display: inline-block;    
+    padding-left: 90px;
+}
+
+.article__div__iframe{
+    width: 300px; 
+    height:200px;
+    padding-bottom: 80px;                
+}
+
+.article__div__image{
+    width: 300px; 
+    height:350px;
+    padding-bottom: 20px;                
+}
+
+footer{
+    background-color: black; 
+}
+
+footer div{
+    color: white;
+    text-align: center;  
+    font-size: 20px;  
+}
+
+footer div ul li{
+    display: inline-block;
+    padding: 20px 10px;
+    padding-inline: 60px;    
+}
+
+.footer__div__ul__li__image_inst{
+    width: 50px;
+    height: 50px;  
+    position: relative;
+    bottom: 20px;
+    left: 587px; 
+}
+
+.footer__div__ul__li__image_face{
+    width: 50px;
+    height: 50px;  
+    position: relative;
+    bottom: 20px;
+    left: 600px; 
+}
+
+/* page recetasTop */
+.recetas__main{    
+    text-align: center;
+}
+
+.recetas__main h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;    
+}
+
+.recetas__main li{
+    display: inline-block;
+    width: 600px; 
+    padding: 10px;    
+    text-align: center;
+    vertical-align: middle;
+}
+
+.recetas__main span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* page videos */
+
+.videos__main__section__div h1{
+    font-size: 35px;
+    padding-bottom: 30px;    
+    text-align: center; 
+    width: 850px;
+    padding-left: 350px;    
+}
+
+.videos__main li{  
+    display: inline-block;
+    padding: 50px;   
+    padding-left: 115px;          
+}
+
+
+
+/* page galeria */
+.galeria__main h1{
+    text-align: center;
+    font-size: 30px;    
+}
+
+.galeria__main img{
+    width: 230px;
+    height: 230px;
+}
+
+.galeria__main ul li{
+    display: inline-block;
+    padding: 35px; 
+    text-align: center;    
+}
+
+
+/* page contacto */
+.contacto__main h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contacto__form{
+    width: 750px;
+    margin-bottom: 50px; 
+    padding-left: 400px;   
+}
+
+.contacto__main__form__input_text{
+    width: 700px;
+    padding-bottom: 10px;
+    margin: 10px;   
+}
+
+.contacto__form textarea{
+    width: 400px;  
+    margin: 10px;  
+}
+
+.contacto__main__input__button{
+    font-size: 20px;
+    color: #2D3142;
+    width: 90px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+    
+
