@@ -12,7 +12,7 @@ body{
 
 .navbar{
     background-color: black;  
-    font-size: 25px;  
+    font-size: 15px;      
 }
 
 .header__logo{
@@ -24,6 +24,7 @@ body{
     display: grid;
     grid-template-areas: 
     'div';
+    margin-top: 60px;
 }
 
 .article-div{
@@ -60,12 +61,8 @@ footer li{
     margin: 5px;
 }
 
-footer ul{
-    display: flex;
-    justify-content: center;
-}
-
 .footer-ul{
+    display: flex;
     flex-direction: column;
     list-style: none;
     padding-left: 0;     
