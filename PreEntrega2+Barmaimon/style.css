@@ -7,7 +7,9 @@
 }
 
 body{
-    background-color: #BFC0C0;    
+    background-color: #BFC0C0; 
+    overflow-x: hidden;     
+    margin-right: 0;    
 }
 
 #grid-padre{
@@ -15,8 +17,8 @@ body{
     grid-template-areas: 
     'header'
     'main'
-    'footer';  
-    min-height: 100vh;
+    'footer';      
+    grid-template-rows: auto 1fr auto;
 }
 
 header{
@@ -24,22 +26,25 @@ header{
 }
 
 main{
-    grid-area: main;
-    height: 70vh;
-    min-height: calc(100vh - 100px - 100px);
+    grid-area: main;     
+    min-height: 100vh;  
 }
 
 footer{
     grid-area: footer; 
     background-color: black;
     color: white;  
-    width: 100%;
+    width: 100%;    
+}
+
+ul{
+    list-style: none;   
+    padding-left: 0;   
 }
 
 .navbar{
     background-color: black;  
-    font-size: 15px;  
-    position: relative;    
+    font-size: 15px;      
 }
 
 .header-logo{
@@ -47,9 +52,7 @@ footer{
     height: 42px;
 }
 
-.main-section-article-ul{
-    list-style: none;   
-    padding-left: 0;     
+.main-section-article-ul{    
     display: flex;        
     flex-direction: column;    
 }
@@ -66,7 +69,6 @@ footer{
     margin-top: 20px;   
 }  
 
-
 footer li{
     margin: 5px;
 }
@@ -75,7 +77,8 @@ footer li{
     display: flex;
     flex-direction: column;    
     list-style: none;
-    padding-left: 0;     
+    padding-left: 0;
+    /* margin-bottom: 0;      */
 }
 
 .footer-ul img{
@@ -162,14 +165,48 @@ footer li{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* SITE - RECETASTOP */
+  .section-recetasTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }  
+
+  .section-recetasTop h1{
+    margin-top: 20px;
+  }
+
+  .section-recetasTop ul{
+    width: auto;
+    margin: 10px;
+    margin-bottom: 15px;
+  }
+
+  .section-recetasTop li{
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;    
+  }
+
+  .section-recetasTop span{
+    font-weight: bold;
+  }
+
+  .main-div-recetasTop iframe{
+    width: auto;
+    height: 200px;
+  }
   
 /* TABLET */
 @media screen and (min-width: 768px){
 
-    #navbarNav{       
-        justify-content: end;    
+    body{
+        overflow-x: hidden;  
     }
-
+    
     .header-logo{
         width: 130px;
         height: 45px;
@@ -188,7 +225,18 @@ footer li{
     .main-section-article-li3{
         font-size: 40px; 
         margin-top: 20px;   
-    }    
+    } 
+    
+    footer{
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    /* SITE - RECETASTOP */
+    .main-recetasTop{
+        height: 130vh;
+    }
+
 }
 
 /* DESKTOP */
@@ -198,6 +246,10 @@ footer li{
         overflow-x: hidden;
         overflow-y: auto;
     }  
+
+    #navbarNav{       
+        justify-content: end;    
+    }
 
     .header__logo{
         width: 175px;
@@ -213,7 +265,17 @@ footer li{
     .main-section-article-li3{
         font-size: 40px; 
         margin-top: 20px;   
-    }    
+    } 
+    
+     /* SITE - RECETASTOP */
+    .section-recetasTop ul{
+        display: flex;
+    }
+
+    .main-div-recetasTop iframe{
+        width: 560px;
+        height: 315px;
+      }
 }
 
 

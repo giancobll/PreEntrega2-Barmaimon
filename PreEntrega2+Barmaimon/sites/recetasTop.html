@@ -11,40 +11,91 @@
     <title>Document</title>
 </head>
 <body>
-    <head>
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-              <img class="header__logo" src="../img/tragosrecetas_logo_edit.jpg" alt="logo">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse head-nav-div-index" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./recetasTop.html">Recetas Top</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./videos.html">Videos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./galeria.html">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+  <div id="grid-padre">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <img class="header-logo" src="../img/tragosrecetas_logo_edit.jpg" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse head-nav-div-index" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./recetasTop.html">Recetas Top</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./videos.html">Videos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </head>
+          </div>
+        </nav>
+    </header>
 
-    <main></main>
+    <main class="main-recetasTop">
+      <section class="section-recetasTop">
+        <div>
+          <h1>Favoritas de la Semana</h1>
+        </div>
+        <div class="main-div-recetasTop">
+          <article class="article-recetasTop">
+            <ul class="border border-dark">
+              <li><span>Pisco Sour</span>, coctel peruano preparado a base de pisco, jugo de limón, azúcar o jarabe de goma, clara de huevo y hielo picado. Es el coctel emblemático de Perú.</li>
+              <li><iframe width="560" height="315" src="https://www.youtube.com/embed/gCjVyVyRmEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            </ul>
+          </article>
+          <article>
+            <ul class="border border-dark">
+              <li><span>Mojito</span>, bebida originaria de Cuba que se prepara con ron, zumo de limón, hierbabuena, agua, hielo y azúcar.</li>
+              <li><iframe width="560" height="315" src="https://www.youtube.com/embed/OgoDyyyDBog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            </ul>            
+          </article>
+          <article>
+            <ul class="border border-dark">
+              <li><span>Citrus Passion</span>, las notas acídulas de los cítricos y del maracuyá, perfectamente equilibradas por la presencia de la cúrcuma, generan una limonada para quien gusta de sabores exóticos.</li>
+              <li><iframe width="560" height="315" src="https://www.youtube.com/embed/j0nuhKKr8BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            </ul>            
+          </article>
+          <article>
+            <ul class="border border-dark">
+              <li><span>Margarita Crush</span>, la unión de tequila, agave y, además, piña crea este mix perfecto que hace que la bebida sea ligeramente especiada e intensa de sabor.</li>
+              <li><iframe width="560" height="315" src="https://www.youtube.com/embed/XvKRTAlz1lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            </ul>
+          </article>
+          <article>
+            <ul class="border border-dark">
+              <li><span>Tequila Sunrise</span>, es un cóctel preparado de dos maneras diferentes: la original, con tequila, crème de cassis, jugo de lima y agua con gas; la forma más popular está hecha con tequila, jugo de naranja y granadina.</li>
+              <li><iframe width="560" height="315" src="https://www.youtube.com/embed/edh_OLZZ_08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-div">
+        <ul class="footer-ul text-center">
+          <li class="col-sm-12">Copyright © GMB 2022</li>
+          <li class="col-sm-12">“Dicen que el alcohol borra la memoria… de lo demás no me acuerdo”</li>                
+          <li class="col-sm-12">
+              Redes Sociales 
+              <img class="footer__div__ul__li__image_inst" src="../img/logo instagram.jpg" alt="Instagram">
+              <img class="footer__div__ul__li__image_face" src="../img/logo facebook.jpg" alt="Facebook">
+          </li>                  
+        </ul>           
+      </div>    
+    </footer>
+  </div>    
 
     <!-- Bootstrap -->
     <!-- JavaScript Bundle with Popper -->
